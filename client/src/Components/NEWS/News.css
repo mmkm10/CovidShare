@@ -1,0 +1,14 @@
+.news {
+    float: right;
+    right: 20px;
+    height: 80vh;
+    width: 10vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 10vh;
+    justify-self: end;
+    align-items: flex-end;
+    border: 10px solid #D3CFCE;
+    box-sizing: border-box;
+}
