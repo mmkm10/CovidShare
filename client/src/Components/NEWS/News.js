@@ -10,8 +10,8 @@ class News extends Component {
     render() {
         return (
 
-            <section className="news">
-                NEWS
+            <section className="news-container">
+              <div id="news">NEWS</div>  
             </section>
 
         )

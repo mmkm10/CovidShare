@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import StudentLog from './Components/Register/Student'
 import MentorLog from './Components/Register/Mentor'
 import Login from './Components/Register/Login'
+import Public from './Components/Chatroom/Pubic/Public'
 
 
 class App extends React.Component {
@@ -18,6 +19,8 @@ class App extends React.Component {
             <Route path="/student/register" exact component={StudentLog} />
             <Route path="/mentor/register" exact component={MentorLog} />
             <Route path="/login" exact component={Login} />
+            <Route path="/chat/public" exact component={Public} />
+
 
 
           </Switch>

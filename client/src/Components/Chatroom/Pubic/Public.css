@@ -1,0 +1,16 @@
+.news-public {
+    position: relative;
+    top: 100px;
+}
+
+.main-chat {
+    position: relative;
+    width: 1000px;
+    height: 748px;
+    top: 100px;
+    left: 480px;
+    background: #FFFFFF;
+    border: 20px solid #D3CFCE;
+    border-top: 80px solid #D3CFCE;
+    box-sizing: border-box;
+}

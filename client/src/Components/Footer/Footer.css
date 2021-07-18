@@ -1,0 +1,90 @@
+.footer-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -2px;
+    top: 1089px;
+    max-height: 480px;
+    background: #C1DCD3;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 120px 160px;
+}
+
+.footer-header {
+    margin-left: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.contact-us-content {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.ul-footer {
+    position: relative;
+    top: 150px;
+    bottom: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #866E6E;
+}
+
+.links-icon {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+.footer-icon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+#email-logo:hover {
+    color: #c06a9b;
+}
+
+#facebook-logo:hover {
+    color: #355595;
+}
+
+#twitter-logo:hover {
+    color: #00ACEE
+}
+
+#whatsapp-logo:hover {
+    color: green;
+}

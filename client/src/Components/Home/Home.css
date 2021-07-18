@@ -35,37 +35,42 @@
 
 .main {
     position: relative;
-    top: 400px;
-    left: 0px;
+    width: 100%;
+    top:100px;
     text-align: left;
 }
-
-
-
+.navbar-container{
+    margin-top: 350px;
+}
 #Reg {
     position: relative;
-    width: 100px;
-    height: 50px;
-    top: 5vh;
-    left: 20vw;
-    background-color: darkgrey;
+    width: 160px;
+    height: 72px;
+    left: 629px;
+    margin-top: 25px;
+    background: #D3CFCE;
     border-radius: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    /* or 132% */
+    text-align: center;
+    color: #372B39;
 }
-h2{
 
-width: 235px;
-height: 61px;
-left: 32px;
-top: 410px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-line-height: 29px;
-/* or 132% */
-
-text-align: center;
-
-color: #372B39;
+h2 {
+    width: 350px;
+    height: 61px;
+    left: 32px;
+    top: 410px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    /* or 132% */
+    text-align: center;
+    color: #372B39;
 }
